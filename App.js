@@ -23,12 +23,7 @@ export default ({ navigation }) => {
     changeShowEditor(true);
   };
   const homeScreenOptions = {
-    headerTitle: '목록',
-    headerRight: () => (
-      <Button
-        title="작성"
-        onPress={ handleShowEditor }/>
-    ),
+    headerShown: false,
   };
   return (
     <Provider store={ store }>

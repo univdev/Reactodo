@@ -19,6 +19,16 @@ export default (props) => {
     Field: {
       fontSize: 18,
     },
+    Buttons: {
+      flexDirection: 'row',
+      justifyContent: 'flex-end',
+      marginTop: 16,
+    },
+    Button: {
+      flex: 1,
+      width: '50%',
+      textAlign: 'center',
+    },
   });
   return (
     <View style={ Styles.Container }>
@@ -28,9 +38,16 @@ export default (props) => {
           placeholder={ props.placeholder || '할 일 입력' }
           style={ Styles.Field }
           onChangeText={ props.onChangeContent }/>
-        <Button
-          title={ props.submitButtonText || '작성' }
-          onPress={ props.onPressSubmitButton }></Button>
+        <View style={ Styles.Buttons }>
+          <Button
+            style={ Styles.Button }
+            title={ props.submitButtonText || '작성' }
+            onPress={ props.onPressSubmitButton }></Button>
+          <Button
+            style={ Styles.Button }
+            title={ props.cancelButtonText || '취소' }
+            onPress={ props.onPressCancelButton }></Button>
+        </View>
       </View>
     </View>
   );
