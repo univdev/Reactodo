@@ -1,3 +1,5 @@
+import { handleActions } from "redux-actions";
+
 const initialState = {
   items: [],
 };
@@ -7,18 +9,20 @@ const ADD = 'todo/ADD';
 export const addItem = (items) => {
   return {
     type: ADD,
-    items,
+    payload: items,
   };
 };
 
-const reducer = (state = initialState, action) => {
-  switch (action.type) {
-    case ADD:
-      return { ...state, items: action.items };
-      break;
-    default:
-      return state;
-  }
-};
-
-export default reducer;
+export default handleActions(
+  {
+    [ADD]: (state, {payload: result}) => {
+      let newItems = state.items;
+      newItems.push(result);
+      let newState = {
+        ...state,
+        items: [...newItems]
+      }
+      return newState;
+    }
+  }, initialState
+);

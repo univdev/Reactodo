@@ -44,6 +44,7 @@ export default (props) => {
             title={ props.submitButtonText || '작성' }
             onPress={ props.onPressSubmitButton }></Button>
           <Button
+            color="red"
             style={ Styles.Button }
             title={ props.cancelButtonText || '취소' }
             onPress={ props.onPressCancelButton }></Button>
