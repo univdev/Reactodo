@@ -15,14 +15,13 @@ export const addItem = (items) => {
 
 export default handleActions(
   {
-    [ADD]: (state, {payload: result}) => {
-      let newItems = state.items;
-      newItems.push(result);
-      let newState = {
+    [ADD]: (state, { payload }) => {
+      const items = [...state.items, { ...payload }];
+      const result = {
         ...state,
-        items: [...newItems]
-      }
-      return newState;
+        items,
+      };
+      return result;
     }
   }, initialState
 );
