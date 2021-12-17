@@ -3,7 +3,7 @@ import { View, StyleSheet, Button, Modal, Alert, Text, RefreshControl } from 're
 import { ScrollView } from 'react-native-gesture-handler';
 import { useSelector, useDispatch } from 'react-redux';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { addItem, asyncInitItems, asyncAddItem } from '~/store/todo';
+import { asyncInitItems, asyncAddItem, asyncRemoveItemByIndex } from '~/store/todo';
 import TodoCard from '~/components/TodoCard';
 import TodoEditor from '~/components/TodoEditor';
 
@@ -51,7 +51,7 @@ module.exports = () => {
   };
   const handleAddTodoItem = async () => {
     try {
-      dispatch(asyncAddItem({ content: state.payload.content }));
+      await dispatch(asyncAddItem({ content: state.payload.content }));
     } catch (e) {
       const { message } = e;
       Alert.alert('할 일 추가 실패', message);
@@ -59,6 +59,20 @@ module.exports = () => {
       changeShowEditor(false);
     }
   };
+  const handleRemoveTodoItem = async (index) => {
+    Alert.alert('할 일 삭제', '정말 해당 할 일을 삭제하시겠습니까?', [
+      {
+        text: '삭제',
+        onPress: async () => {
+          await dispatch(asyncRemoveItemByIndex(index));
+        },
+      },
+      {
+        text: '취소',
+        style: 'cancel',
+      },
+    ]);
+  }
   useEffect(() => {
     dispatch(asyncInitItems());
   }, []);
@@ -97,7 +111,8 @@ module.exports = () => {
               <TodoCard
                 key={ index }
                 style={ index > 0 ? Styles.TodoCard : null }
-                content={ item.content }></TodoCard>
+                content={ item.content }
+                onPressRemoveButton={ () => handleRemoveTodoItem(index) }></TodoCard>
             ));
           })()
         }

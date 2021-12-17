@@ -11,9 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		4B9E0C67C2F9FC80895F4B45 /* libPods-Reactodo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C21E7B68AAAA4DF34CD51F67 /* libPods-Reactodo.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		E185F3E98CE90EAB34F16CA9 /* libPods-Reactodo-ReactodoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4C1CEE94C374F3F5862B48 /* libPods-Reactodo-ReactodoTests.a */; };
+		F0368DF10D44234CBC5AE325 /* libPods-Reactodo-ReactodoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 767FA6CD0CD7507C6F30F559 /* libPods-Reactodo-ReactodoTests.a */; };
+		FFF630783ED2867882A13269 /* libPods-Reactodo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0399E6065D27611AB385D592 /* libPods-Reactodo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,19 +30,19 @@
 		00E356EE1AD99517003FC87E /* ReactodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ReactodoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactodoTests.m; sourceTree = "<group>"; };
-		101DD8EEA6B6D8080BBA165B /* Pods-Reactodo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactodo.debug.xcconfig"; path = "Target Support Files/Pods-Reactodo/Pods-Reactodo.debug.xcconfig"; sourceTree = "<group>"; };
+		01892722686415B6AC3E8C49 /* Pods-Reactodo-ReactodoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactodo-ReactodoTests.debug.xcconfig"; path = "Target Support Files/Pods-Reactodo-ReactodoTests/Pods-Reactodo-ReactodoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0399E6065D27611AB385D592 /* libPods-Reactodo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Reactodo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* Reactodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reactodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Reactodo/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Reactodo/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Reactodo/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Reactodo/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Reactodo/main.m; sourceTree = "<group>"; };
-		5A4C1CEE94C374F3F5862B48 /* libPods-Reactodo-ReactodoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Reactodo-ReactodoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C18BEBD5E4DCC7ADA37BF0 /* Pods-Reactodo-ReactodoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactodo-ReactodoTests.release.xcconfig"; path = "Target Support Files/Pods-Reactodo-ReactodoTests/Pods-Reactodo-ReactodoTests.release.xcconfig"; sourceTree = "<group>"; };
+		6D9EE2DE7FCF8C67BE14CE47 /* Pods-Reactodo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactodo.release.xcconfig"; path = "Target Support Files/Pods-Reactodo/Pods-Reactodo.release.xcconfig"; sourceTree = "<group>"; };
+		767FA6CD0CD7507C6F30F559 /* libPods-Reactodo-ReactodoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Reactodo-ReactodoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Reactodo/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C21E7B68AAAA4DF34CD51F67 /* libPods-Reactodo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Reactodo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C34667B11B4F6C91C4F4AFAB /* Pods-Reactodo-ReactodoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactodo-ReactodoTests.debug.xcconfig"; path = "Target Support Files/Pods-Reactodo-ReactodoTests/Pods-Reactodo-ReactodoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		CA1DBD8182F2ED7105841E13 /* Pods-Reactodo-ReactodoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactodo-ReactodoTests.release.xcconfig"; path = "Target Support Files/Pods-Reactodo-ReactodoTests/Pods-Reactodo-ReactodoTests.release.xcconfig"; sourceTree = "<group>"; };
-		EC7DFF2E6A74AF06F2C05E3E /* Pods-Reactodo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactodo.release.xcconfig"; path = "Target Support Files/Pods-Reactodo/Pods-Reactodo.release.xcconfig"; sourceTree = "<group>"; };
+		E5C5ADA5ABFA1B7D0917D3F4 /* Pods-Reactodo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactodo.debug.xcconfig"; path = "Target Support Files/Pods-Reactodo/Pods-Reactodo.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E185F3E98CE90EAB34F16CA9 /* libPods-Reactodo-ReactodoTests.a in Frameworks */,
+				F0368DF10D44234CBC5AE325 /* libPods-Reactodo-ReactodoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B9E0C67C2F9FC80895F4B45 /* libPods-Reactodo.a in Frameworks */,
+				FFF630783ED2867882A13269 /* libPods-Reactodo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,22 +100,10 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				C21E7B68AAAA4DF34CD51F67 /* libPods-Reactodo.a */,
-				5A4C1CEE94C374F3F5862B48 /* libPods-Reactodo-ReactodoTests.a */,
+				0399E6065D27611AB385D592 /* libPods-Reactodo.a */,
+				767FA6CD0CD7507C6F30F559 /* libPods-Reactodo-ReactodoTests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		38C856670BA0C55CF5ADB0FF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				101DD8EEA6B6D8080BBA165B /* Pods-Reactodo.debug.xcconfig */,
-				EC7DFF2E6A74AF06F2C05E3E /* Pods-Reactodo.release.xcconfig */,
-				C34667B11B4F6C91C4F4AFAB /* Pods-Reactodo-ReactodoTests.debug.xcconfig */,
-				CA1DBD8182F2ED7105841E13 /* Pods-Reactodo-ReactodoTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -133,7 +121,7 @@
 				00E356EF1AD99517003FC87E /* ReactodoTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				38C856670BA0C55CF5ADB0FF /* Pods */,
+				F7F018ECAEF0ADD7B6418E15 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -149,6 +137,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		F7F018ECAEF0ADD7B6418E15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5C5ADA5ABFA1B7D0917D3F4 /* Pods-Reactodo.debug.xcconfig */,
+				6D9EE2DE7FCF8C67BE14CE47 /* Pods-Reactodo.release.xcconfig */,
+				01892722686415B6AC3E8C49 /* Pods-Reactodo-ReactodoTests.debug.xcconfig */,
+				24C18BEBD5E4DCC7ADA37BF0 /* Pods-Reactodo-ReactodoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,12 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactodoTests" */;
 			buildPhases = (
-				91328F378F7869D1BA39A7F9 /* [CP] Check Pods Manifest.lock */,
+				1162920AAF40238E2E62C4FA /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				077F648DD63EDFD122A880C4 /* [CP] Embed Pods Frameworks */,
-				93EFD94B635BE40FF91CB91B /* [CP] Copy Pods Resources */,
+				CDA9C1BA43ED503388C66549 /* [CP] Embed Pods Frameworks */,
+				D76970F9CA351B34CEAAC010 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,14 +177,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Reactodo" */;
 			buildPhases = (
-				F8D57FDEB124745369A38686 /* [CP] Check Pods Manifest.lock */,
+				8BFE53D8FB294A46C019ADB4 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				5DB75765CDE8ACF8BA66F24C /* [CP] Embed Pods Frameworks */,
-				EA2DDC90D1F6869A00FC5940 /* [CP] Copy Pods Resources */,
+				24A420EBADA922596ACC35D8 /* [CP] Embed Pods Frameworks */,
+				0FB6F1A61141E027E26EC4B6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,41 +265,24 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		077F648DD63EDFD122A880C4 /* [CP] Embed Pods Frameworks */ = {
+		0FB6F1A61141E027E26EC4B6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Reactodo-ReactodoTests/Pods-Reactodo-ReactodoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Reactodo/Pods-Reactodo-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Reactodo-ReactodoTests/Pods-Reactodo-ReactodoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Reactodo/Pods-Reactodo-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Reactodo-ReactodoTests/Pods-Reactodo-ReactodoTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Reactodo/Pods-Reactodo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5DB75765CDE8ACF8BA66F24C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Reactodo/Pods-Reactodo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Reactodo/Pods-Reactodo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Reactodo/Pods-Reactodo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		91328F378F7869D1BA39A7F9 /* [CP] Check Pods Manifest.lock */ = {
+		1162920AAF40238E2E62C4FA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,41 +304,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		93EFD94B635BE40FF91CB91B /* [CP] Copy Pods Resources */ = {
+		24A420EBADA922596ACC35D8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Reactodo-ReactodoTests/Pods-Reactodo-ReactodoTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Reactodo/Pods-Reactodo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Reactodo-ReactodoTests/Pods-Reactodo-ReactodoTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Reactodo/Pods-Reactodo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Reactodo-ReactodoTests/Pods-Reactodo-ReactodoTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Reactodo/Pods-Reactodo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EA2DDC90D1F6869A00FC5940 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Reactodo/Pods-Reactodo-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Reactodo/Pods-Reactodo-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Reactodo/Pods-Reactodo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F8D57FDEB124745369A38686 /* [CP] Check Pods Manifest.lock */ = {
+		8BFE53D8FB294A46C019ADB4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,6 +341,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDA9C1BA43ED503388C66549 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Reactodo-ReactodoTests/Pods-Reactodo-ReactodoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Reactodo-ReactodoTests/Pods-Reactodo-ReactodoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Reactodo-ReactodoTests/Pods-Reactodo-ReactodoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D76970F9CA351B34CEAAC010 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Reactodo-ReactodoTests/Pods-Reactodo-ReactodoTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Reactodo-ReactodoTests/Pods-Reactodo-ReactodoTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Reactodo-ReactodoTests/Pods-Reactodo-ReactodoTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -429,7 +429,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C34667B11B4F6C91C4F4AFAB /* Pods-Reactodo-ReactodoTests.debug.xcconfig */;
+			baseConfigurationReference = 01892722686415B6AC3E8C49 /* Pods-Reactodo-ReactodoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -456,7 +456,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA1DBD8182F2ED7105841E13 /* Pods-Reactodo-ReactodoTests.release.xcconfig */;
+			baseConfigurationReference = 24C18BEBD5E4DCC7ADA37BF0 /* Pods-Reactodo-ReactodoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -480,7 +480,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 101DD8EEA6B6D8080BBA165B /* Pods-Reactodo.debug.xcconfig */;
+			baseConfigurationReference = E5C5ADA5ABFA1B7D0917D3F4 /* Pods-Reactodo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -506,7 +506,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC7DFF2E6A74AF06F2C05E3E /* Pods-Reactodo.release.xcconfig */;
+			baseConfigurationReference = 6D9EE2DE7FCF8C67BE14CE47 /* Pods-Reactodo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
