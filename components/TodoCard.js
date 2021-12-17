@@ -42,9 +42,9 @@ export default (props) => {
             if (props.content) return (<Text style={ Styles.Text }>{ props.content }</Text>);
           })()
         }
-        <Icon.Button
+        <Icon
           name="close"
-          backgroundColor="transparent"
+          backgroundColor="#FFFFFF"
           color="black"
           style={ Styles.CloseButton }
           onPress={ props.onPressRemoveButton }/>
