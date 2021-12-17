@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { View, StyleSheet, Button, Modal, Alert, Text, RefreshControl } from 'react-native';
+import { View, StyleSheet, Button, Modal, Alert, Text, RefreshControl, FlatList } from 'react-native';
 import { ScrollView } from 'react-native-gesture-handler';
 import { useSelector, useDispatch } from 'react-redux';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -73,6 +73,15 @@ module.exports = () => {
       },
     ]);
   }
+  const renderTodoCard = ({ item, index }) => {
+    return (
+      <TodoCard
+        key={ index }
+        style={ index > 0 ? Styles.TodoCard : null }
+        content={ item.content }
+        onPressRemoveButton={ () => handleRemoveTodoItem(index) }></TodoCard>
+    );
+  }
   useEffect(() => {
     dispatch(asyncInitItems());
   }, []);
@@ -94,7 +103,7 @@ module.exports = () => {
           title="추가"
           onPress={ handleShowEditor }></Button>
       </View>
-      <ScrollView
+      <View
         style={ Styles.ScrollView }
         RefreshControl={
           <RefreshControl
@@ -107,16 +116,12 @@ module.exports = () => {
                 <Text style={ Styles.NoMessage }>데이터가 존재하지 않습니다.</Text>
               </View>
             );
-            return [...items].map((item, index) => (
-              <TodoCard
-                key={ index }
-                style={ index > 0 ? Styles.TodoCard : null }
-                content={ item.content }
-                onPressRemoveButton={ () => handleRemoveTodoItem(index) }></TodoCard>
-            ));
           })()
         }
-      </ScrollView>
+        <FlatList
+          data={ items }
+          renderItem={ renderTodoCard }/>
+      </View>
     </SafeAreaView>
   );
 };
