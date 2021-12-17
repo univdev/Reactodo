@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { View, StyleSheet, Button, Modal, Alert, Text, RefreshControl } from 'react-native';
 import { ScrollView } from 'react-native-gesture-handler';
 import { useSelector, useDispatch } from 'react-redux';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { addItem } from '~/store/todo';
+import { addItem, asyncInitItems, asyncAddItem } from '~/store/todo';
 import TodoCard from '~/components/TodoCard';
 import TodoEditor from '~/components/TodoEditor';
 
@@ -51,9 +51,7 @@ module.exports = () => {
   };
   const handleAddTodoItem = async () => {
     try {
-      const result = await dispatch(
-        addItem({ content: state.payload.content })
-      );
+      dispatch(asyncAddItem({ content: state.payload.content }));
     } catch (e) {
       const { message } = e;
       Alert.alert('할 일 추가 실패', message);
@@ -61,6 +59,9 @@ module.exports = () => {
       changeShowEditor(false);
     }
   };
+  useEffect(() => {
+    dispatch(asyncInitItems());
+  }, []);
   return (
     <SafeAreaView>
       <Modal
